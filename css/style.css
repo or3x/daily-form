@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+	outline: none;
+}
+body{
+	font-family: "Arial", Arial, sans-serif;
+	background: url(../img/main-bg.jpg) no-repeat;
+	background-size: cover;
+	font-weight: 400;
+
+}
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+input{
+	height: 40px;
+	border: none;
+	background-color: #f0f0f0;
+	border-radius: 4px;
+	padding: 0 14px;
+	margin-bottom: 15px;
+}
+
+::-webkit-input-placeholder {color:#7A7B7F; font-size: 14px;}
+::-moz-placeholder          {color:#7A7B7F; font-size: 14px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#7A7B7F; font-size: 14px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#7A7B7F; font-size: 14px;}
+
+
+.df-form{
+	width: 460px;
+
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 60px auto 69px;
+	padding: 26px 30px 30px;
+}
+
+.df-form__header{
+
+}
+.df-form__header--title{
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+.df-form__header--title:before{
+	content: url(../img/sign-up.svg);
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.df-form__header--subtittle{
+	font-size: 13px;
+	color: #7a7b7f;
+	line-height: 20px;
+}
+a{
+	text-decoration: none;
+	color: #ea355a;
+}
+
+fieldset {
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 100%;
+	/* font-size: 0; */
+
+}
+.df-form__first-name{
+	width: 48%;
+}
+.df-form__last-name{
+	width: 48%;
+	float: right;
+
+}
+.df-form__email{
+	width: 100%;
+}
+.df-form__password{
+	width: 100%;
+}
+.df-button	{
+	display: block;
+	text-align: center;
+	background-color: #ea355a;
+		-webkit-box-shadow: 0px 3px 0px 0px rgba(189,25,98,1);
+		-moz-box-shadow: 0px 3px 0px 0px rgba(189,25,98,1);
+		box-shadow: 0px 3px 0px 0px rgba(189,25,98,1);
+	color: #FFF;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 18px;
+	border: none;
+	/* margin: 30px auto 20px; */
+	padding: 15px;
+	width: 100%;
+	cursor: pointer;
+}
+.df-button:hover{
+	background-color: #bd1962;
+		-webkit-box-shadow: 0px 3px 0px 0px rgba(234,53,90,1);
+		-moz-box-shadow: 0px 3px 0px 0px rgba(234,53,90,1);
+		box-shadow: 0px 3px 0px 0px rgba(234,53,90,1);
+}
+.df-form__terms{
+	margin-top: 25px;
+	font-size: 12px;
+	color: #7a7b7f;
+}
+.df-form__terms--a{
+
+}
